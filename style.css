@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: url(Absolute_Reality_v16_I_want_a_jungle_background_for_what_I_jus_0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.pajaro {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    transition: 1s;
+}
+
+button {
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: white;
+    border: none;
+    height: 50px;
+    width: 150px;
+}
+
+.contenedor-cajas {
+    display: flex;
+    position: relative;
+    left: 1600px;
+}
+.contenedor-cajas--dos {
+    display: flex;
+    position: relative;
+    left: 800px;
+}
+
+.inicia__contenedor {
+    display: flex;
+    flex-direction: column;
+}
+
+.inicia {
+    z-index: 999;
+    display: flex;
+    position: relative;
+    left: 1200px;
+}
+
+.inicia__contenedor p {
+    font-size: 25px;
+    position: relative;
+    top: 50px;
+    left: 1225px;
+    color: rgb(255, 255, 255);
+}
+
+#pajaro {
+    margin: 0 50px;
+}
+
+.primer-fila, .segunda-fila, .tercera-fila, .cuarta-fila, .quinta-fila {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.segunda-fila .caja-superior {
+    height: 100px;
+}
+.segunda-fila .caja-inferior {
+    height: 350px;
+}
+.tercera-fila .caja-superior {
+    height: 300px;
+}
+.tercera-fila .caja-inferior {
+    height: 150px;
+}
+.cuarta-fila .caja-superior {
+    height: 50px;
+}
+.cuarta-fila .caja-inferior {
+    height: 450px;
+}
+.quinta-fila .caja-superior {
+    height: 250px;
+}
+.quinta-fila .caja-inferior {
+    height: 250px;
+}
+
+.caja-superior {
+    transform: rotateX(180deg);
+}
+
+.caja-superior, .caja-inferior {
+    background-image: url(rojoplanta.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px 10px 0 0;
+    background-position: center;
+    height: 250px;
+    width: 100px;
+    margin: 0 100px;
+}
+
+.celeste {
+    background-color: blue;
+}
